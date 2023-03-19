@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sección Select */
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  margin-right: 20px;
+  padding: 0;
+  font-size: 13px;
+}
+
+h5 {
+  margin-right: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.365);
+}
+
+.seleccionTables {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  box-shadow: 0px 0px 2px -1px #000000;
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-top: 0;
+  width: 200px;
+  padding: 5px;
+}
+
+.btn-add {
+  border: solid white 1px;
+  background-color: #4f58aa;
+  border-radius: 28px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 30px;
+  margin: 15px 20px;
+}
+
+.btn-add:hover {
+  background-color: #444c91;
+}
+
+/* Sección Tablas */
+
+.tareasTable {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+h2 {
+  padding: 0;
+}
+
+.tareas {
+  border-style: solid;
+  border-color: black;
+  border-radius: 2%;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  margin: 10px 0 10px 50px;
+  padding-bottom: 30px;
+}
+
+.tareasList {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.selectColorTable {
+  display: flex;
+  justify-content: start;
+}
+
+.btnColor,
+input {
+  width: 30px;
+  box-shadow: none;
+  border: none;
+}
+
+.config {
+  width: 25px;
+}
+
+.popUpBtn {
+  position: static;
+  margin: calc(-15px) 0 0 450px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  box-shadow: none;
+}
+
+.removeTable {
+  color: rgb(147, 18, 18);
+  position: static;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 5px 465px 0 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  box-shadow: none;
+}
+
+.popUp {
+  width: 300px;
+  position: relative;
+  background-color: #ffffff;
+  margin-left: 170px;
+  display: none;
+  border: solid black 2px;
+  border-radius: 42px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  box-shadow: 0px 0px 2px 0px #0000006c;
+  background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+  background-color: #ffffff;
+  border-radius: 42px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin: 15px 0 10px 0;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  outline: none;
+  width: 350px;
+  text-align: center;
+}
+
+.btn-add-task {
+  border: solid rgba(0, 0, 0, 0) 2px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px 0px #0000006c;
+  border-radius: 28px;
+  cursor: pointer;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 9px 15px;
+  margin: 15px 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: white;
+  border-radius: 42px;
+  display: flex;
+  color: black;
+  font-weight: 300;
+  font-size: 15px;
+  box-shadow: 0px 0px 2px 0px #0000006c;
+  width: 450px;
+  margin: 10px 0 0 20px;
+}
+
+li p {
+  margin: 0;
+  padding: 7px;
+  width: auto;
+  text-align: left;
+}
+
+.btn-delete {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  margin-left: auto;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  padding: 5px 5px;
+  border-radius: 42px;
+  width: 45px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contenteditable {
+  width: 300px;
+  margin: 15px auto;
+  border-radius: 42px;
+}
